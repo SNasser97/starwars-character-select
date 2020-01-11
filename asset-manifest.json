@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/starwars-character-select/static/css/main.80423205.chunk.css",
+    "main.js": "/starwars-character-select/static/js/main.77aacc1b.chunk.js",
+    "main.js.map": "/starwars-character-select/static/js/main.77aacc1b.chunk.js.map",
+    "runtime-main.js": "/starwars-character-select/static/js/runtime-main.e815f19f.js",
+    "runtime-main.js.map": "/starwars-character-select/static/js/runtime-main.e815f19f.js.map",
+    "static/js/2.2a5ba0df.chunk.js": "/starwars-character-select/static/js/2.2a5ba0df.chunk.js",
+    "static/js/2.2a5ba0df.chunk.js.map": "/starwars-character-select/static/js/2.2a5ba0df.chunk.js.map",
+    "index.html": "/starwars-character-select/index.html",
+    "precache-manifest.9f2e36bd32e6c25c09d73de35c85cc26.js": "/starwars-character-select/precache-manifest.9f2e36bd32e6c25c09d73de35c85cc26.js",
+    "service-worker.js": "/starwars-character-select/service-worker.js",
+    "static/css/main.80423205.chunk.css.map": "/starwars-character-select/static/css/main.80423205.chunk.css.map",
+    "static/js/2.2a5ba0df.chunk.js.LICENSE": "/starwars-character-select/static/js/2.2a5ba0df.chunk.js.LICENSE",
+    "static/media/main.scss": "/starwars-character-select/static/media/DeathStar.e8e3c5d2.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e815f19f.js",
+    "static/js/2.2a5ba0df.chunk.js",
+    "static/css/main.80423205.chunk.css",
+    "static/js/main.77aacc1b.chunk.js"
+  ]
+}
