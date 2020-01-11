@@ -1,0 +1,36 @@
+
+// container
+.loader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40rem;
+
+	&__dualRing {
+		display: inline-block;
+		width: 8rem;
+		height: 8rem;
+		&:after {
+			content:"";
+			display: block;
+			width: 6.4rem;
+			height: 6.4rem;
+			margin: .8rem;
+			border-radius: 50%;
+			border: .6rem solid $col-white;
+			border-color: $col-secondary transparent $col-secondary transparent;
+			animation:spinner .8s linear infinite ;
+		}
+	}
+
+}
+
+
+@keyframes spinner {
+	0%{
+		transform:rotate(0deg);
+	}
+	100%{
+		transform:rotate(360deg);
+	}
+}

@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'DeathStar';
+  src: url('../../assets/font/DeathStar.ttf') format('truetype'),
+       url('../../assets/font/DeathStar.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.main-heading, .title-heading {
+	color:transparent;
+	 -webkit-text-stroke-width: 1px;
+ 	 -webkit-text-stroke-color: $col-secondary;
+ 	 font-size: 5rem;
+}
+
+.title-heading {
+	font-size: 2rem;
+}
+
+.tc {
+	text-align: center;
+}
+
+.description {
+	color: $col-white;
+	font-style: italic;
+}

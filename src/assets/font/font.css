@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'DeathStar-VmWB';
+  src: url('DeathStar-VmWB.eot');
+  src: url('DeathStar-VmWB.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DeathStar';
+  src: url('DeathStar.ttf') format('truetype'),
+       url('DeathStar.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+

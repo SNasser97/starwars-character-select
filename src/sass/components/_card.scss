@@ -1,0 +1,68 @@
+
+.card-container {
+	display: grid;
+	justify-content: center;
+	align-items: start;
+	grid-column-gap: 2rem;
+	grid-template-columns: repeat( auto-fit, minmax(min-content, 40rem) );
+}
+
+.card {
+	height: auto;
+	width:40rem;
+	margin: -2rem auto;
+	// border:1px solid white;
+	margin-bottom: 5rem;
+	box-shadow: 0 2px 10px rgba($col-white, .25);
+	background: linear-gradient(
+		135deg,
+		rgba(0,0,0,0.65) 90%,
+		rgba($col-secondary, .2) 10%);
+	border-radius: 1rem;
+	transform: scale(1);
+	transition: all .2s;
+	img {
+		display: block;
+		margin: 0 auto;
+		height: 20rem;
+	}
+	&:hover {
+		transform:scale(1.05);
+	}
+	&:active {
+		transform:scale(1);
+	}
+	&__character {
+		
+		padding: 3rem;
+
+	}
+	&__details {
+		color:$col-white;
+		&--name {
+			font-style: italic;
+			text-align: center;
+			font-size: 2rem;
+		}
+		display: table;
+		margin: 0 auto;
+	}
+	&__table {
+		font-family: "Agency FB", sans-serif;
+		font-size: 1.4rem;
+		text-transform: uppercase;
+		font-weight: bolder;
+		display: flex;
+		justify-content: center;
+		align-items:center;
+		border:.5rem solid $col-secondary;
+	}
+	&__tableBody {
+		// border:1px solid red;
+		
+	}
+	&__tableRow td {
+		border:1px solid $col-secondary;
+		padding: 1rem;
+	}
+}

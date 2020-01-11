@@ -1,10 +1,20 @@
+html {
+	font-size: 62.5%;
+}
+
 body {
+  font-size: 1.6rem;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: $col-primary;
+  font-family: $font;
+  letter-spacing: .4rem;
+  // background: url({./../../assets/img/sw-bg.jpg}) no-repeat;
+  // background-image:url("https://wallup.net/wp-content/uploads/2015/12/40262-Star_Wars-Death_Star-science_fiction.jpg");
 }
 
 code {
